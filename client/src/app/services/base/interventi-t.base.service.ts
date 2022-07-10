@@ -53,11 +53,13 @@ import { InterventiT } from '../../domain/laboratorio_db/interventi-t';
 		},
 		Stato: {
 			type: 'String',
-			required : true
+			required : true,
+			enum : ["Aperto", "Eseguito", "Sospeso"]
 		},
 		Tecnico: {
 			type: 'String',
-			required : true
+			required : true,
+			enum : ["Ercole", "Sandro"]
 		},
 		//RELATIONS
 		//EXTERNAL RELATIONS

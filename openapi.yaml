@@ -508,11 +508,18 @@ components:
           x-skaffolder-id-attr: 62c9a1f8c97c70218d659418
           x-skaffolder-type: String
           x-skaffolder-required: true
+          x-skaffolder-enumeration:
+            - Aperto
+            - Eseguito
+            - Sospeso
         Tecnico:
           type: string
           x-skaffolder-id-attr: 62c9a1f8c97c70218d659415
           x-skaffolder-type: String
           x-skaffolder-required: true
+          x-skaffolder-enumeration:
+            - Ercole
+            - Sandro
       x-skaffolder-relations:
         CliKey:
           x-skaffolder-id: 62c9a1f8c97c70218d659419
